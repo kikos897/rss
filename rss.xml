@@ -29,12 +29,7 @@
             <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
             <link>http://www.example.org/actu1</link>
         </item>
-        <item>
-            <title>Actualité N4</title>
-            <description>Ceci est ma seconde actualité</description>
-            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <link>http://www.example.org/actu2</link>
-        </item>
+     
     </channel>
  
 </rss>
